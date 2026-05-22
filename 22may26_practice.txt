@@ -4,7 +4,7 @@ create table departments(
 did int primary key,
 dname varchar(25) not null unique
 );
-insert into departments values
+insert into departments values 
 (101,'CSE'),(102,'ECE'),(103,'civil'),(106,'Aero'),(107,'Mech');
 
 select * from departments order by did;
