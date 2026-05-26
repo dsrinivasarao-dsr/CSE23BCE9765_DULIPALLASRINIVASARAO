@@ -1538,13 +1538,3 @@ db.products.find({storage:{$gte:128}},{name:1,storage:1})
   ]
 }
 
-
-db.products.find({storage:{$gte:128}},{name:1,storage:1}).toArray()
-[
-  { _id: 1, name: 'xPhone', storage: [ 64, 128, 256 ] },
-  { _id: 2, name: 'xTablet', storage: [ 128, 256, 512 ] },
-  { _id: 3, name: 'SmartTablet', storage: [ 16, 64, 128 ] },
-  { _id: 4, name: 'SmartPad', storage: [ 128, 256, 1024 ] },
-  { _id: 5, name: 'SmartPhone', storage: [ 128, 256 ] }
-]
-
